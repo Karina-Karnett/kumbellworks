@@ -55,21 +55,23 @@ import 'dart:io';
 
 //   for (int i = 0; i < n; i++) {
 //   print(k);
-//   }
+//   } 
 // }
 
 
-void main () {
-  print('Введите число a');
-  int a = int.parse(stdin.readLineSync()!);
-  print('Введите число b так чтобы оно было больше a');
-  int b = int.parse(stdin.readLineSync()!);
+// void main () {
+//   print('Введите число a');
+//   int a = int.parse(stdin.readLineSync()!);
+//   print('Введите число b так чтобы оно было больше a');
+//   int b = int.parse(stdin.readLineSync()!);
 
-  int c = 0;
-  for (int i = a; i <= b; i++) {
-    print(i);
-    c++;
-  }
-  print('Количество: $c');
+//   int c = 0;
+//   for (int i = a; i <= b; i++) {
+//     print(i);
+//     c++;
+//   }
+//   print('Количество: $c');
 
-}
+// }
+
+
